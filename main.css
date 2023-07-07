@@ -1,0 +1,126 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+header{
+    background-color: #ffffff	;
+    padding: 8px;
+    display: flex;
+    margin-bottom: 24px;
+    margin-top: 10px;
+    color:#0a0909	;
+    border-radius: 16px 2px 16px 2px;
+    
+}
+
+header h1{
+    font-size: 40px;
+    font-weight: bold;  
+    display: flex;
+
+    
+}
+.borda{
+    border: 4px solid #fff;
+    padding: 48px;
+    border-radius: 100px 100px 20px 20px;
+    height: 100%;
+    background-color: #62320f1a;
+
+   
+}
+.container{ 
+    background-color: black;
+    display: block;
+    max-width: 940px;
+    width: 100%;
+    margin: 0 auto;
+    margin-top: 50px;
+    border: 2px solid #000000;
+    padding: 32px;
+    
+    
+}
+
+form{
+    display: flex;
+    max-width: 740px;
+    width: 100%;
+    justify-content: space-between;
+    margin-bottom: 56px;
+}
+
+form input{
+        background-color: #d2691e0b		;
+        color:#fff;
+        font-size: 24px;
+        padding: 8px;
+        border: 2px solid #fff;
+        outline-color: #1ff646;
+        margin: 0 auto;
+        margin-left: 3px;
+        
+        
+        }
+
+        form input:hover{
+            border: 2px solid #7dff69;
+            outline-color: #1ff646;
+            }
+            form input:focus{
+                border: 2px solid #a5f4a8;
+                outline-color: #1ff646;
+                }
+
+form button{
+    background-color: black;
+    color: #ffffff	;
+    font-size: 24px;
+    font-weight: bold;
+    border: 1px solid #fff;
+    cursor: pointer;
+    padding: 8px;
+    margin-left: 3px;
+
+}
+form button:hover{
+    background-color: #fff;
+    color: black;
+    border: 2px solid #1ff646 ;
+        }
+
+
+
+ table{
+    width: 100%;
+
+
+}
+
+
+
+
+ table th{
+    padding: 8px;
+    font-size: 24px;
+    font-weight: bold;
+    color:#ea7522;
+    border: 2px solid #fff;
+    
+
+    
+}
+table td{
+    
+    text-align: center;
+    font-size: 24px;
+    padding: 8px ;
+    border: 2px solid #fff;
+    margin: 8px;
+    color: #fff;
+            
+        }
+
